@@ -17,8 +17,17 @@ code {
   height: 175px;
 }
 
-.heroImg {
-  border-radius: 10px;
+.heroContainer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Assetts/hero.jpeg");
+  height: 75vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
   box-shadow: 2px 4px 10px hsla(0, 0%, 0%, .3),
     2px 4px 20px hsla(0, 0%, 0%, .2)
+}
+
+.heroRow {
+  padding-top: calc(37.5vh - 81.59px) !important;
 }
