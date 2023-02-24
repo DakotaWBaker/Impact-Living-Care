@@ -11,7 +11,7 @@ export default function Hero() {
 </div>
 <div className = 'row text-center' >
 <div className = 'col' >
-<h4>Affordable shared housing. Housing can be a start to a new beginning</h4>
+<h4>Affordable shared housing</h4>
 </div>
 </div>
 </div>
