@@ -1,7 +1,25 @@
 import React from "react";
 import email from "./Assetts/email.svg";
+import { useState } from "react";
+// const FORM_ENDPOINT = "https://public.herotofu.com/v1/9dc400d0-b6fe-11ed-9b4c-9779a04c69de"
 
 export default function Contact() {
+  const [submitted, setSubmitted] = useState(false);
+  const handleSubmit = () => {
+    setTimeout(() => {
+      setSubmitted(true);
+    }, 100);
+  };
+
+  if (submitted) {
+    return (
+      <>
+        <div className="text-2xl">Thank you!</div>
+        <div className="text-md">We'll be in touch soon.</div>
+      </>
+    );
+  }
+
   return (
     <div className="container-fluid" id="contactScroll">
       <div className="row mt-5 justify-content-center">
@@ -20,10 +38,10 @@ export default function Contact() {
             <div className="col-md-6">
               <form
                 className="mb-5"
-                method="post"
-                id="contactForm"
-                name="contactForm"
-                noValidate="novalidate"
+                // action={FORM_ENDPOINT}
+                onSubmit={handleSubmit}
+                method="POST"
+                target="_blank"
               >
                 <div className="row">
                   <div className="col-md-12 form-group">
@@ -33,6 +51,7 @@ export default function Contact() {
                       name="name"
                       id="name"
                       placeholder="Your name"
+                      required
                     />
                     <div
                       data-lastpass-icon-root="true"
@@ -53,6 +72,7 @@ export default function Contact() {
                       name="email"
                       id="email"
                       placeholder="Email"
+                      required
                     />
                   </div>
                 </div>
@@ -64,6 +84,7 @@ export default function Contact() {
                       name="subject"
                       id="subject"
                       placeholder="Subject"
+                      required
                     />
                   </div>
                 </div>
@@ -77,6 +98,7 @@ export default function Contact() {
                       rows={7}
                       placeholder="Write your message"
                       defaultValue={""}
+                      required
                     />
                   </div>
                 </div>
@@ -85,7 +107,7 @@ export default function Contact() {
                     <input
                       type="submit"
                       defaultValue="Send Message"
-                      className="btn btn-primary rounded-0 py-2 px-4"
+                      className="btn btn-primary py-2 px-4"
                     />
                     <span className="submitting" />
                   </div>

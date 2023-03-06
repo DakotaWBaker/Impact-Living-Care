@@ -21,12 +21,12 @@ h2 {
 .logo {
   height: auto;
   width: auto;
-  max-height: 114px;
+  max-height: 120px;
   max-width: 250px;
 }
 .navbar {
-  background-color: black;
-
+  background-color: #043454;
+ padding: 0px !important;
 }
 .navbar-brand, .nav-link{
   color: white !important;
@@ -49,8 +49,8 @@ h2 {
 .heroRow {
   padding-top: calc(37.5vh - 81.59px) !important;
 }
-.firstSection h1 {
-  color: #3dd5e9;
+.firstSection p {
+  color: #f6f6f6;
 }
 .missionHeader {
   margin-top: 100px !important;
@@ -75,8 +75,8 @@ h2 {
 
 .missionPictures {
   border-radius: 10px;
-  box-shadow: 2px 4px 10px hsla(0, 0%, 0%, 0.3),
-    2px 4px 20px hsla(0, 0%, 0%, 0.2);
+  box-shadow: 2px 4px 10px hsla(204, 91%, 17%, 0.3),
+  2px 4px 20px hsla(204, 91%, 17%, 0.3);
   width: 400px;
   height: 266.92px;
 }
@@ -84,10 +84,11 @@ h2 {
 .missionSpan {
   border: 1px solid black;
   border-radius: 10px;
-  background-color: white;
+  background-color: #043454;
+  color: #F6F6F6;
   padding: 10px 30px 10px 30px;
-  box-shadow: 2px 4px 10px hsla(0, 0%, 0%, 0.3),
-    2px 4px 20px hsla(0, 0%, 0%, 0.2);
+  box-shadow: 2px 4px 10px hsla(204, 91%, 17%, 0.3),
+    2px 4px 20px hsla(204, 91%, 17%, 0.3);
 }
 
 .missionHeaders {
@@ -97,7 +98,7 @@ h2 {
 .decorated {
   overflow: hidden;
   text-align: center;
-  color: #3dd5e9;
+  color: #043454;
 }
 .decorated > span {
   position: relative;
@@ -127,4 +128,111 @@ h2 {
 .missionParas {
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.firstSectionSpan {
+  border: 1px solid #043454;
+  background-color: #043454;
+  border-radius: 5px;
+  color: black;
+  padding: 15px;
+  box-shadow: 2px 4px 10px hsla(204, 91%, 17%, 0.3),
+    2px 4px 20px hsla(204, 91%, 17%, 0.3);
+}
+.btn-primary {
+  background-color: #043454 !important;
+  border: 1px solid #043454 !important;
+  border-radius: 7px !important;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  border: 1px solid #043454 !important;
+  background-color: #F6F6F6 !important;
+  color: #043454 !important;
+}
+
+.card-img-top {
+  height: auto;
+  width: auto;
+  max-height: 40px;
+  max-width: 40px;
+}
+
+.featuresContainer {
+  background: #043454;
+  position: relative;
+  z-index: 1;
+  color: #F6F6F6;
+}
+.featuresContainer:before, .quote:after {
+  background: #043454;
+  content: "";
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+}
+.featuresContainer:before {
+  top: 0;
+  transform: skewY(1.5deg);
+  transform-origin: 100% 0;
+}
+.featuresContainer:after {
+  bottom: 0;
+  transform: skewY(-2.5deg);
+  transform-origin: 100%;
+}
+
+.card {
+  color: black !important;
+  background-color: #F6F6F6 !important;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.btn-secondary {
+  border: 1px solid #043454 !important;
+  background-color: #F6F6F6 !important;
+  color: #043454 !important;
+}
+
+.btn-secondary:hover {
+  background-color: #043454 !important;
+  color:white !important;
+  border: 1px solid #043454 !important;
+  border-radius: 7px !important;
+  transform: translateY(-2px);
+}
+
+.heroHeader {
+  margin-right: 24px !important;
+ 
+}
+
+.navButton {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.aboutPic {
+ width: auto;
+ height: 100%;
+ box-shadow:2px 4px 10px hsla(204, 91%, 17%, 0.3),
+ 2px 4px 20px hsla(204, 91%, 17%, 0.3);
+}
+
+.aboutUs {
+  background-color: #F6F6F6;
+}
+strong {
+color:#043454;
+}
+
+#whoQualifies {
+  color: white;
 }

@@ -3,9 +3,9 @@ import React from "react";
 export default function FirstSection() {
   return (
     <div className="container-fluid firstSection" id="aboutScroll">
-      <div className="row missionHeader text-center">
-        <div className="col">
-          <h1>Housing can be a start to a new beginning!</h1>
+      <div className="row missionHeader justify-content-center">
+        <div className="col-xs-12 col-md-6 text-center">
+          <h1><p className = 'firstSectionSpan'>Housing can be a start to a new beginning!</p></h1>
         </div>
       </div>
       <div className="row missionPara text-center">
