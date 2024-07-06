@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Impact-Living-Care/static/css/main.9cc5b1fd.css",
+    "main.js": "/Impact-Living-Care/static/js/main.a3eb6656.js",
+    "static/js/787.e79e313f.chunk.js": "/Impact-Living-Care/static/js/787.e79e313f.chunk.js",
+    "static/media/homelesspicture.jpg": "/Impact-Living-Care/static/media/homelesspicture.bda0aac66aa5c6638867.jpg",
+    "static/media/hero2.jpg": "/Impact-Living-Care/static/media/hero2.fe90336776a389d07a84.jpg",
+    "static/media/hero.jpeg": "/Impact-Living-Care/static/media/hero.1233813921fa0194a807.jpeg",
+    "static/media/homelessperson.jpeg": "/Impact-Living-Care/static/media/homelessperson.0530666a01639208920f.jpeg",
+    "static/media/arrow.png": "/Impact-Living-Care/static/media/arrow.9721da5452da65cb4aa4.png",
+    "static/media/electric-appliance.png": "/Impact-Living-Care/static/media/electric-appliance.864dcde534ca7115dbb9.png",
+    "static/media/security-camera.png": "/Impact-Living-Care/static/media/security-camera.3bb64e11bdbdfb14c4f9.png",
+    "static/media/bill.png": "/Impact-Living-Care/static/media/bill.abc219fd545ae71de6c3.png",
+    "static/media/washer-machine.png": "/Impact-Living-Care/static/media/washer-machine.fe0a44858f56fa22a43a.png",
+    "static/media/tv.png": "/Impact-Living-Care/static/media/tv.5d59aa9711028a036781.png",
+    "static/media/impactlogo.png": "/Impact-Living-Care/static/media/impactlogo.8e3d4fafbb6551187e4d.png",
+    "static/media/email.svg": "/Impact-Living-Care/static/media/email.f73a5764ecaca695fc381bead50596f6.svg",
+    "static/media/logo.svg": "/Impact-Living-Care/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Impact-Living-Care/index.html",
+    "main.9cc5b1fd.css.map": "/Impact-Living-Care/static/css/main.9cc5b1fd.css.map",
+    "main.a3eb6656.js.map": "/Impact-Living-Care/static/js/main.a3eb6656.js.map",
+    "787.e79e313f.chunk.js.map": "/Impact-Living-Care/static/js/787.e79e313f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cc5b1fd.css",
+    "static/js/main.a3eb6656.js"
+  ]
+}
