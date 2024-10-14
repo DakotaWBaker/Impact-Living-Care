@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Impact-Living-Care/static/css/main.9cc5b1fd.css",
-    "main.js": "/Impact-Living-Care/static/js/main.a3eb6656.js",
-    "static/js/787.e79e313f.chunk.js": "/Impact-Living-Care/static/js/787.e79e313f.chunk.js",
+    "main.js": "/Impact-Living-Care/static/js/main.d85839cc.js",
+    "static/js/787.c1112931.chunk.js": "/Impact-Living-Care/static/js/787.c1112931.chunk.js",
     "static/media/homelesspicture.jpg": "/Impact-Living-Care/static/media/homelesspicture.bda0aac66aa5c6638867.jpg",
     "static/media/hero2.jpg": "/Impact-Living-Care/static/media/hero2.fe90336776a389d07a84.jpg",
     "static/media/hero.jpeg": "/Impact-Living-Care/static/media/hero.1233813921fa0194a807.jpeg",
@@ -18,11 +18,11 @@
     "static/media/logo.svg": "/Impact-Living-Care/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Impact-Living-Care/index.html",
     "main.9cc5b1fd.css.map": "/Impact-Living-Care/static/css/main.9cc5b1fd.css.map",
-    "main.a3eb6656.js.map": "/Impact-Living-Care/static/js/main.a3eb6656.js.map",
-    "787.e79e313f.chunk.js.map": "/Impact-Living-Care/static/js/787.e79e313f.chunk.js.map"
+    "main.d85839cc.js.map": "/Impact-Living-Care/static/js/main.d85839cc.js.map",
+    "787.c1112931.chunk.js.map": "/Impact-Living-Care/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9cc5b1fd.css",
-    "static/js/main.a3eb6656.js"
+    "static/js/main.d85839cc.js"
   ]
 }
